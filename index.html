@@ -3,73 +3,121 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RM OXIRA – Metals Export | Cobre Electrolítico 99.999%</title>
-<meta name="description" content="Fabricación y exportación internacional de cobre electrolítico ETP C11000 para infraestructura energética, minería y proyectos industriales.">
+<title>RM OXIRA – Metals Export | Cobre Electrolítico</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-body {
-  font-family: 'Inter', sans-serif;
-  color: #222;
-  background: #fafafb;
+body{
+    font-family:'Inter',sans-serif;
+    background:#0c0c0c;
+    color:#e5e5e5;
 }
-.navbar {
-  background: #0a0a0a !important;
-  padding: 18px;
+
+.navbar{
+    background:#000 !important;
+    padding:15px 0;
 }
-.navbar-brand {
-  font-weight: 700;
-  letter-spacing: 1px;
+
+.navbar-brand img{
+    height:55px;
 }
-.hero {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url('https://images.unsplash.com/photo-1601758123927-7ecd76d7a546?auto=format&fit=crop&w=1600&q=80');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 180px 0;
+
+.nav-link{
+    color:#d4af37 !important;
+    font-weight:500;
 }
-.hero h1 {
-  font-size: 3rem;
-  font-weight: 800;
+
+.nav-link:hover{
+    color:white !important;
 }
-.hero p {
-  font-size: 1.2rem;
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.85),rgba(0,0,0,.85)),
+    url('https://images.unsplash.com/photo-1581091870627-3b5de0f3b3ad?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    padding:200px 20px 150px;
+    text-align:center;
 }
-.btn-primary-custom {
-  background: #c26e32;
-  border: none;
-  color: white;
-  font-weight: 600;
-  padding: 12px 28px;
+
+.hero h1{
+    font-size:3.5rem;
+    font-weight:800;
+    color:#d4af37;
 }
-.btn-primary-custom:hover {
-  background: #9b5827;
+
+.hero p{
+    font-size:1.2rem;
+    color:#ccc;
 }
-.section-title {
-  font-size: 2rem;
-  font-weight: 700;
-  border-bottom: 3px solid #c26e32;
-  padding-bottom: 8px;
-  margin-bottom: 30px;
+
+.btn-gold{
+    background:#d4af37;
+    color:black;
+    font-weight:600;
+    padding:14px 32px;
+    border:none;
 }
-.card-feature {
-  border: none;
-  transition: 0.4s;
+
+.btn-gold:hover{
+    background:#b9972f;
 }
-.card-feature:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+section{
+    padding:100px 0;
 }
-footer {
-  background: #111;
-  color: #ccc;
-  padding: 40px 0;
+
+.section-title{
+    font-weight:700;
+    margin-bottom:50px;
+    color:#d4af37;
 }
-footer a {
-  color: #ccc;
+
+.bg-alt{
+    background:#141414;
+}
+
+.card-custom{
+    background:#1a1a1a;
+    border:none;
+    padding:30px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card-custom:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 40px rgba(212,175,55,.2);
+}
+
+.badge-gold{
+    background:#d4af37;
+    color:black;
+    padding:8px 14px;
+    margin:5px;
+}
+
+table{
+    background:#1a1a1a;
+    color:white;
+}
+
+table th{
+    background:#d4af37;
+    color:black;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:60px 20px;
+    color:#aaa;
+}
+
+footer strong{
+    color:#d4af37;
 }
 </style>
 </head>
@@ -78,116 +126,94 @@ footer a {
 
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 <div class="container">
-  <a class="navbar-brand" href="#">RM OXIRA</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="menuNav">
-    <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a class="nav-link" href="#quienes">Quiénes Somos</a></li>
-      <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
-      <li class="nav-item"><a class="nav-link" href="#calidad">Calidad</a></li>
-      <li class="nav-item"><a class="nav-link" href="#exportacion">Exportación</a></li>
-      <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-    </ul>
-  </div>
+<a class="navbar-brand" href="#">
+<img src="logo-rm-oxira.jpg" alt="RM OXIRA Logo">
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navMenu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#empresa">Empresa</a></li>
+<li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+<li class="nav-item"><a class="nav-link" href="#calidad">Calidad</a></li>
+<li class="nav-item"><a class="nav-link" href="#exportacion">Exportación</a></li>
+<li class="nav-item"><a class="nav-link" href="#contacto">Cotización</a></li>
+</ul>
+</div>
 </div>
 </nav>
 
-<section class="hero text-center">
+<section class="hero">
 <div class="container">
-  <h1>Cobre Electrolítico ETP C11000 – Alta Conductividad</h1>
-  <p class="mt-3">Soluciones industriales para energía, infraestructura, minería y electricidad.</p>
-  <a href="#contacto" class="btn btn-primary-custom mt-4">Solicitar Cotización Internacional</a>
+<h1>Cobre Electrolítico 99.999%</h1>
+<p class="mt-4">Fabricación y exportación internacional de cobre ETP C11000 para infraestructura energética y minería</p>
+<a href="#contacto" class="btn btn-gold mt-4">Solicitar Cotización</a>
 </div>
 </section>
 
-<div class="container my-5">
+<div class="container">
 
-<section id="quienes">
-  <h2 class="section-title">Quiénes Somos</h2>
-  <p>RM OXIRA – Metals Export es una empresa especializada en fabricación y exportación de cobre electrolítico 99.999% para aplicaciones industriales exigentes.</p>
-  <p>Nuestra experiencia en procesos metalúrgicos nos permite ofrecer productos de alta calidad y certificación internacional.</p>
+<section id="empresa">
+<h2 class="section-title">Información General</h2>
+<p>Empresa especializada en fabricación y exportación de cobre electrolítico de alta conductividad para mercados internacionales.</p>
 </section>
 
-<section id="productos" class="mt-5">
-  <h2 class="section-title">Nuestros Productos</h2>
-  <div class="row g-4">
-    <div class="col-md-4">
-      <div class="card card-feature p-4">
-        <h5 class="fw-bold">Varillas y Barras</h5>
-        <p>Varillas para puesta a tierra, barras redondas, cuadradas y hexagonales.</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card card-feature p-4">
-        <h5 class="fw-bold">Pletinas (Bus Bar)</h5>
-        <p>Pletinas de cobre electrolítico para sistemas eléctricos e industriales.</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card card-feature p-4">
-        <h5 class="fw-bold">Perfiles Especiales</h5>
-        <p>Perfiles según plano con tolerancias ajustadas a requerimientos técnicos.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="calidad" class="mt-5">
-  <h2 class="section-title">Control de Calidad y Certificaciones</h2>
-  <p>Nuestros procesos y materias primas cumplen estándares internacionales reconocidos.</p>
-  <ul class="list-inline">
-    <li class="list-inline-item badge bg-secondary text-white">ASTM B-187</li>
-    <li class="list-inline-item badge bg-secondary text-white">ASTM B-193</li>
-    <li class="list-inline-item badge bg-secondary text-white">EN Standards</li>
-    <li class="list-inline-item badge bg-secondary text-white">DIN / BS</li>
-  </ul>
-
-  <table class="table table-bordered mt-4">
-    <tr><th>Propiedad</th><th>Valor</th></tr>
-    <tr><td>Conductividad</td><td>100–101% IACS</td></tr>
-    <tr><td>Densidad</td><td>8.89 g/cm³</td></tr>
-    <tr><td>Punto de fusión</td><td>1083 °C</td></tr>
-    <tr><td>Dureza</td><td>H04 (según requerimiento)</td></tr>
-  </table>
-</section>
-
-<section id="exportacion" class="mt-5">
-  <h2 class="section-title">Exportación Internacional</h2>
-  <p>Distribución a Europa, América y Asia con documentación internacional completa para proyectos B2B.</p>
-  <ul>
-    <li>Documentación técnica y de transporte</li>
-    <li>Embalaje industrial seguro</li>
-    <li>Opciones logística FOB / CIF</li>
-  </ul>
-</section>
-
-<section id="contacto" class="mt-5 mb-4">
-  <h2 class="section-title">Contacto</h2>
-  <form action="https://formspree.io/f/xyzzabcd" method="POST" class="row g-3">
-    <div class="col-md-6">
-      <input type="text" name="empresa" class="form-control" placeholder="Empresa" required>
-    </div>
-    <div class="col-md-6">
-      <input type="email" name="email" class="form-control" placeholder="Email corporativo" required>
-    </div>
-    <div class="col-12">
-      <textarea name="mensaje" class="form-control" rows="4" placeholder="Detalle del pedido" required></textarea>
-    </div>
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary-custom">Enviar Solicitud</button>
-    </div>
-  </form>
-</section>
-
+<section id="productos" class="bg-alt">
+<div class="container">
+<h2 class="section-title">Productos</h2>
+<div class="row">
+<div class="col-md-6">
+<div class="card-custom mb-4">
+<h5>Productos Fabricados</h5>
+<ul>
+<li>Varillas para puesta a tierra</li>
+<li>Pletinas (Bus Bar)</li>
+<li>Barras redondas, cuadradas y hexagonales</li>
+<li>Perfiles especiales según plano</li>
+</ul>
+</div>
 </div>
 
-<footer class="text-center">
-  <p><strong>RM OXIRA – Metals Export</strong> | Cobre Electrolítico ETP C11000</p>
-  <p>Exportación Internacional | B2B | Calidad y Confiabilidad Industrial</p>
-</footer>
+<div class="col-md-6">
+<div class="card-custom mb-4">
+<h5>Composición Técnica</h5>
+<ul>
+<li>ETP – UNS C11000</li>
+<li>≥ 99.90% Cu</li>
+<li>Conductividad 100–101% IACS</li>
+<li>Normas ASTM / EN / DIN / BS</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<section id="calidad">
+<h2 class="section-title">Normas y Calidad</h2>
+
+<span class="badge badge-gold">ASTM B-187</span>
+<span class="badge badge-gold">ASTM B-193</span>
+<span class="badge badge-gold">EN</span>
+<span class="badge badge-gold">DIN</span>
+<span class="badge badge-gold">BS</span>
+
+<table class="table table-bordered mt-4">
+<tr><th>Propiedad</th><th>Valor</th></tr>
+<tr><td>Conductividad</td><td>100–101% IACS</td></tr>
+<tr><td>Densidad</td><td>8.89 g/cm³</td></tr>
+<tr><td>Punto de fusión</td><td>1083 °C</td></tr>
+<tr><td>Dureza</td><td>H04</td></tr>
+</table>
+</section>
+
+<section id="contacto">
+<h2 class="section-title">Cotización Internacional</h2>
+
+<form action="https://formspree.io/f/xyzzabcd" method="POST" class="row g-3">
+<div class="col-md-6">
+<input type="text" name="empresa" class="form-control" placeholder="Empresa" required>
+</div>
+<div class="col-md-6">
+<in
